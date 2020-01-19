@@ -8,19 +8,14 @@ namespace cbservice
         {
             var bgService = new BackgroundService();
 
-            while (true)
+            try
             {
-                try
-                {
-                    bgService.Start();
-                }
-                catch (System.Exception ex)
-                {
-                    bgService.Stop();
-                    System.Console.WriteLine(ex.Message);
-                }
-
-                System.Console.Read();
+                bgService.Start();
+            }
+            catch (System.Exception ex)
+            {
+                bgService.Stop();
+                System.Console.WriteLine(ex.Message);
             }
 
         }
