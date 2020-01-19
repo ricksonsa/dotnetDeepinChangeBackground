@@ -37,11 +37,13 @@ namespace cbservice
 
         private void TimerElapsed(object sender, ElapsedEventArgs e)
         {
-            if (string.IsNullOrEmpty(_currentBackground) || _currentBackground != GetBackground())
+            var bg = GetBackground();
+
+            if (string.IsNullOrEmpty(_currentBackground) || _currentBackground != bg)
             {
-                System.Console.WriteLine($"{AppDomain.CurrentDomain.BaseDirectory}backgrounds/{GetBackground()}.jpeg");
-                _currentBackground = GetBackground();
-                var output = Bash($"gsettings set com.deepin.wrap.gnome.desktop.background picture-uri {AppDomain.CurrentDomain.BaseDirectory}backgrounds/{GetBackground()}.jpeg");
+                System.Console.WriteLine($"{AppDomain.CurrentDomain.BaseDirectory}backgrounds/{bg}.jpeg");
+                _currentBackground = bg;
+                var output = Bash($"gsettings set com.deepin.wrap.gnome.desktop.background picture-uri {AppDomain.CurrentDomain.BaseDirectory}backgrounds/{bg}.jpeg");
             }
 
         }
