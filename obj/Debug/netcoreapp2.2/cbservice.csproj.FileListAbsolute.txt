@@ -1,0 +1,11 @@
+/home/rickson/Projects/cbservice/bin/Debug/netcoreapp2.2/cbservice.deps.json
+/home/rickson/Projects/cbservice/bin/Debug/netcoreapp2.2/cbservice.runtimeconfig.json
+/home/rickson/Projects/cbservice/bin/Debug/netcoreapp2.2/cbservice.runtimeconfig.dev.json
+/home/rickson/Projects/cbservice/bin/Debug/netcoreapp2.2/cbservice.dll
+/home/rickson/Projects/cbservice/bin/Debug/netcoreapp2.2/cbservice.pdb
+/home/rickson/Projects/cbservice/obj/Debug/netcoreapp2.2/cbservice.csprojAssemblyReference.cache
+/home/rickson/Projects/cbservice/obj/Debug/netcoreapp2.2/cbservice.csproj.CoreCompileInputs.cache
+/home/rickson/Projects/cbservice/obj/Debug/netcoreapp2.2/cbservice.AssemblyInfoInputs.cache
+/home/rickson/Projects/cbservice/obj/Debug/netcoreapp2.2/cbservice.AssemblyInfo.cs
+/home/rickson/Projects/cbservice/obj/Debug/netcoreapp2.2/cbservice.dll
+/home/rickson/Projects/cbservice/obj/Debug/netcoreapp2.2/cbservice.pdb

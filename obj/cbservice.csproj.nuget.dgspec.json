@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/rickson/Projects/cbservice/cbservice.csproj": {}
+  },
+  "projects": {
+    "/home/rickson/Projects/cbservice/cbservice.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rickson/Projects/cbservice/cbservice.csproj",
+        "projectName": "cbservice",
+        "projectPath": "/home/rickson/Projects/cbservice/cbservice.csproj",
+        "packagesPath": "/home/rickson/.nuget/packages/",
+        "outputPath": "/home/rickson/Projects/cbservice/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/rickson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Topshelf": {
+              "target": "Package",
+              "version": "[4.1.0.177-develop, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
